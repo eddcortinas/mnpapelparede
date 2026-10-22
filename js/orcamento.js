@@ -671,7 +671,7 @@ async function gerarPDF() {
     doc.setPage(p);
     doc.setDrawColor(...LARANJA); doc.setLineWidth(0.8); doc.line(M, 287, W - M, 287);
     doc.setFont("helvetica", "normal"); doc.setFontSize(7.5); doc.setTextColor(...CINZA);
-    doc.text(txt(`${EMPRESA.nome} - WhatsApp (47) 99270-9166`), M, 291.5);
+    doc.text(txt(`${EMPRESA.nome} - WhatsApp (85) 99931-5754`), M, 291.5);
     doc.text(`${tipo} Nº ${txt(f.numero.value)} - Pág. ${p}/${paginas}`, W - M, 291.5, { align: "right" });
   }
 
